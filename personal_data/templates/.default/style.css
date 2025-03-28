@@ -1,0 +1,75 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.form-content{
+    background-color: #3d4345;
+    padding: 50px;
+
+    border-radius: 15px;
+}
+
+.input-block{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap:5px;
+    color:white;
+    margin-bottom: 15px;
+}
+
+.test-input {
+    height: 25px;
+
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.test-input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+}
+
+.form-button-save {
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(135deg, #4CAF50, #45A049);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-button-save:hover {
+    background: linear-gradient(135deg, #45A049, #3E8E41);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-button-save:active {
+    background: linear-gradient(135deg, #3E8E41, #2E7031);
+    transform: scale(0.98);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-buttons{
+    gap: 25px;
+}
